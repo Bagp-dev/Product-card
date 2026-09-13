@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+#produto{
+    font-family:'inter';
+    color: #8E8E8E;
+    font-weight: 200; 
+    font-size: 15px;
+    margin-top: 0%;
+}
+.heart{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    margin-bottom: -10px;
+    justify-content: flex-end;
+    ;
+}
+#like{
+    height: 20px;
+    width: 23px;
+}
+#titulo{
+    font-size: 35px;
+    font-family:'montserrat';
+    margin-bottom: 0%;
+    color:#C01C5E
+}
+#subtitulo{
+    font-family:'montserrat';
+    margin: 0%;
+    font-size: 25px;
+    color:#C01C5E 
+    
+}
+#marca{
+    font-family: 'montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    margin: 0%;
+}
+p{
+    text-align:justify;
+    font-family:'montserrat';
+    margin-top: 15px;
+}
+em{
+     color: #E86E9F;
+     font-style: italic;
+}
+.valor{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#preço_atual{
+    font-family: 'Libre Baskerville';
+    font-weight: 700;
+    font-size: 50px;
+    font-style: italic;
+    color: #FF96B6;
+    margin-top: 60px;
+    margin-bottom: 0%;
+}
+#preço_antigo{
+    font-family:'Libre Baskerville' ;
+    font-style: italic;
+    font-weight: 700;
+    color: #BABABA;
+    margin-top: 10px;
+}
+.circulos{
+    display:flex;
+    flex-direction: row;
+}
+.amarelo,.roxo,.rosa{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.amarelo{
+    background-color: #FFE067;
+}
+.roxo {
+    background-color: #708DE9;
+    margin-left: -10px;
+}
+.rosa{
+    background-color: #FF96B6;
+    margin-left: -10px;
+}
+.linha{
+    width: 20px;
+    background-color: #BABABA;
+    height: 1.5px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+#cor{
+    margin-left: 5px ;
+    font-family: 'montserrat';
+    font-style: italic;
+    color: #B9B9B9;
+}
+button{
+    display: flex;
+    width: 221px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #FDBBCF;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 60px;
+}
+#carrinho{
+    width: 25px;
+    height: 22px;
+    background-color: #FDBBCF
+}
+#botao{
+    font-family: 'montserrat';
+    font-weight: 700;
+    color: #ffff;
+}
+#img{
+    width: 400px;
+    height: 620px;
+}
+body{
+    background-color: #000;
+}
+.info{
+    padding: 50px;
+    padding-right: 0px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    background: #ffff;
+    height: 620px;
+    width: 800px;
+}
